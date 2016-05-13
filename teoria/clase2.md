@@ -2548,9 +2548,7 @@ Recursos:
 
 ![estación detalles](https://raw.githubusercontent.com/UlisesGascon/bicimad-api/master/ejemplos/img/gmaps_bicimad_station.png)
 
-```javascript
-// Tu solución
-```
+- [Solución](https://github.com/UlisesGascon/bicimad-api/tree/master/ejemplos)
 
 **5 -** Crea una web que nos permita ver los detalles almacenados en IMBD de una pelicula partiendo únicamente del título
 Recursos:
