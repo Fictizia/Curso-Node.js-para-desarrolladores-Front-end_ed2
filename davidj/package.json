@@ -4,7 +4,9 @@
   "description": "script",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "versiones": "npm -v && node -v",
+    "gStatus": "git status",
+    "emoji": "npm install --save emoji-random && emoji-random"
   },
   "repository": {
     "type": "git",
@@ -16,9 +18,7 @@
     "url": "https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed2/issues"
   },
   "homepage": "https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed2#readme",
-  "scripts" : {
-      "versiones" : "npm -v && node -v",
-      "gStatus" : "git status,
-      "gEmoji": 
+  "dependencies": {
+    "emoji-random": "^0.1.2"
   }
 }
