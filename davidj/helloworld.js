@@ -8,17 +8,17 @@ http.createServer(function(req, res) {
     console.log(path);
     if (path == '/'){
         res.writeHead("200", {
-            'Content-Type': "text/plain"
+            'Content-Type': "text/plain; charset=utf-8"
         });
         res.end(mensaje);
     } else if (path == '/solo'){
          res.writeHead("200", {
-            'Content-Type': "text/plain"
+            'Content-Type': "text/plain; charset=utf-8"
         });
         res.end("EStas solo");
     } else {
          res.writeHead("404", {
-            'Content-Type': "text/plain"
+            'Content-Type': "text/plain; charset=utf-8"
         });
         res.end("busca bien");
     }
