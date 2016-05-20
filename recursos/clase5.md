@@ -48,4 +48,4 @@
 - [node-mysql](https://github.com/felixge/node-mysql)
 - [Nodemailer](https://github.com/nodemailer/nodemailer)
 - [node-validator](https://github.com/chriso/validator.js)
-**[Muchos Más (lista)](https://github.com/sindresorhus/awesome-nodejs/)**
+- **[Muchos Más (lista)](https://github.com/sindresorhus/awesome-nodejs/)**
