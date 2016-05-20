@@ -1,0 +1,26 @@
+{
+  "name": "npm-ejercicio",
+  "version": "1.0.0",
+  "description": "Ejercicio para usar npm con comandos",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm -v",
+    "start":"node -v",
+    "repo_curso":"git clone https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed2.git",
+    "repo_bootstrap":"git clone https://github.com/twbs/bootstrap.git",
+    "emojitest":"emoji-random"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed2/blob/master/teoria/clase4.md"
+  },
+  "keywords": [
+    "npm",
+    "test"
+  ],
+  "author": "Natalia Tejedor",
+  "license": "ISC",
+  "dependencies": {
+    "emoji-random": "^0.1.2"
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="demo"><h2>Pelicula Hackers en IMDB Jquery</h2></div>
+
+<button type="button" onclick="peticionAjaxJquery()">Change Content</button>
+
+<script>
+    function peticionAjax() {
+        var xmlHttp = new XMLHttpRequest();
+        var url = "//www.omdbapi.com/?t=Hackers&y=&plot=full&r=json";
+        xmlHttp.onreadystatechange = function() {
+
+            if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+                console.info(JSON.parse(xmlHttp.responseText));
+            } else if (xmlHttp.readyState === 4 && xmlHttp.status === 404) {
+                console.error("ERROR! 404");
+                console.info(JSON.parse(xmlHttp.responseText));
+            }
+        };
+        xmlHttp.open("GET", url, true);
+        xmlHttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+        xmlHttp.send();
+    }
+    function peticionAjaxJquery (){
+          // Using YQL and JSONP
+          $.ajax({
+              url: "//www.omdbapi.com/?t=Hackers&y=&plot=full&r=json+&callback=?",
+        
+              // The name of the callback parameter, as specified by the YQL service
+              jsonp: "callback",
+        
+              // Tell jQuery we're expecting JSONP
+              dataType: "jsonp",
+        
+              // Work with the response
+              success: function( response ) {
+                  console.log( response ); // server response
+                  document.getElementById("demo").innerHTML = JSON.stringify(response);
+              }
+          }); 
+    }
+</script>
+
+</body>
+</html>
