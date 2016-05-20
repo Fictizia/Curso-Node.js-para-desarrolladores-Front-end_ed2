@@ -1,0 +1,6 @@
+{
+  "name": "ejercicios",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}

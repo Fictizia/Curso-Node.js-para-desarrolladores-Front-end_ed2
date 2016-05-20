@@ -1,0 +1,24 @@
+{
+  "name": "npmscripts",
+  "version": "1.0.0",
+  "description": "script",
+  "main": "index.js",
+  "scripts": {
+    "versiones": "npm -v && node -v",
+    "gStatus": "git status",
+    "emoji": "npm install --save emoji-random && emoji-random"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed2.git"
+  },
+  "author": "david j",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed2/issues"
+  },
+  "homepage": "https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed2#readme",
+  "dependencies": {
+    "emoji-random": "^0.1.2"
+  }
+}
