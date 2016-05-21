@@ -52,8 +52,6 @@
 
 
 ### Próximos eventos
-
-![jsDay](http://www.channelbiz.es/wp-content/uploads/2016/03/JSDayEs-2016.jpg)
 - [OpenExpo-Day-2016](http://www.openexpo.es/)
 - [Entradas (50€)](http://www.openexpo.es/openexpo-2016/inscripcion)
 - [Ponenetes](http://www.openexpo.es/openexpo-2016/ponentes-2016)
