@@ -45,7 +45,7 @@ Teoría | Recursos
 [Clase 3](teoria/clase3.md) | [Clase 3](recursos/clase3.md)
 [Clase 4](teoria/clase4.md) | [Clase 4](recursos/clase4.md)
 [Clase 5](teoria/clase5.md) | [Clase 5](recursos/clase5.md)
-Clase 6 | Clase 6
+[Clase 6](teoria/clase6.md) | [Clase 6](recursos/clase6.md)
 
 
 Temario
