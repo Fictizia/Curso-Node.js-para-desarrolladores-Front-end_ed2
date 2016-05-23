@@ -116,7 +116,7 @@ process.exit(1);
 
 ### Ejercicios
 
-**1 - ** Realiza un script ejecutable que nos muestre la información de los terremotos acontecidos en la última hora.
+**1 -** Realiza un script ejecutable que nos muestre la información de los terremotos acontecidos en la última hora.
 - [Fuente de datos](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 - Requisitos:
 	- Debemos utilizar párametros cuando se ejecute para definir la magnitud de los terremotos que queremos
@@ -751,7 +751,24 @@ console.log(config.token);
 - Emoji al azar con [emoji-random](https://www.npmjs.com/package/emoji-random)
 
 ```javascript
-    // Tu solución
+{
+  "name": "npm-scripts-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "emoji": "emoji-random",
+    "versions": "node -v && npm -v",
+    "bootstrap": "git clone https://github.com/twbs/bootstrap.git",
+    "curso": "git clone https://github.com/Fictizia/Curso-Node.js-para-desarrolladores-Front-end_ed2.git",
+    "status": "git status"
+  },
+  "devDependencies": {
+    "emoji-random": "^0.1.2"
+  },
+  "author": "Ulises Gascon",
+  "license": "ISC"
+}
 ```
 
 
@@ -1189,9 +1206,7 @@ Objetivos:
 - Comprobar si ese mismo usuario ya esta registrado (Email como ID), para evitar multiples inscripciones.
 - Incluiremos en la página los usuarios que se van sumando.
 
-```javascript
-  // Tu solución
-```
+- **[Solución](http://codepen.io/ulisesgascon/pen/19f8b66b32e9ebc0fea3d8dd5c03e0f4)**
 
 
 **2 -** Partiendo del ejercicio anterior... realizaremos un nuevo formulario que nos permita registrarnos usando nuestra cuenta de Github.
@@ -1203,9 +1218,8 @@ Objetivos:
 - Documentación:
   - [GitHub User Authentication](https://www.firebase.com/docs/web/guide/login/github.html)
 
-```javascript
-  // Tu solución
-```
+- **[Solución](http://codepen.io/ulisesgascon/pen/2b9ee3341e4e21ee3c0b32b247313858)**
+
 
 **3 -** Partiendo del ejercicio primer ejercicio... realizaremos un nuevo formulario que nos permita almacenar información adiccional en Firebase usando la [API de FullContact](https://www.fullcontact.com/developer/).
 
@@ -1218,9 +1232,7 @@ Objetivos:
 - Documentación:
   - [FullContact by Email](https://www.fullcontact.com/developer/docs/email/)
 
-```javascript
-  // Tu solución
-```
+- **[Solución](http://codepen.io/ulisesgascon/pen/b3362ecbd9fc9e393453c6fdd7e92ea9)**
 
 
 ### Express
@@ -2212,6 +2224,4 @@ app.use('production', function(error, req, res, next) {
     - Enriquece los datos facilitados por el usuario con la [API de OMBD](http://omdbapi.com/)
     - Guardate una copia de las portadas de las peliculas y sirvelas en la carpeta de los archivos estáticos para evitar el error 403 de IMBD
 
-  ```javascript
-    // Tu solución
-  ```
+- **[Solución](https://github.com/UlisesGascon/Simple-API-REST-with-Firebase-and-IMBD/releases/tag/v1.0.0)**
