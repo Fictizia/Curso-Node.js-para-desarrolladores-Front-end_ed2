@@ -102,9 +102,7 @@ Eventos reservados:
 - Objetivos opcionales:
   - Refactoriza y evoluciona este repositorio para crear una aplicación que analices Tweets con un contenido especifico.
 
-```javascript
-    // Tu solución
-```
+- **[Solución](https://github.com/UlisesGascon/IT-Pulse)**
 
 
 ### Bower
